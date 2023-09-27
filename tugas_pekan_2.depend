@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1695480232 source:c:\users\sidab\onedrive\documents\desktop\tugas_pekan_2\main.cpp
+	<iostream>
+	"sll.h"
+
+1695612848 c:\users\sidab\onedrive\documents\desktop\tugas_pekan_2\sll.h
+	<iostream>
+
+1695479428 source:c:\users\sidab\onedrive\documents\desktop\tugas_pekan_2\sll.cpp
+	"sll.h"
+	<iostream>
+
