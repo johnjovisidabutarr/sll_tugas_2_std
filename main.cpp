@@ -6,68 +6,53 @@ int main()
     List J;
     Create_List(J);
     address P;
-
-    std::string nama_user, nip_user, jabatan_user;
-    int umur_user;
     infotype data;
 
     std::cout << "Nama: ";
-    std::cin >> nama_user;
+    std::cin >> data.nama;
     std::cout << "NIP: ";
-    std::cin >> nip_user;
+    std::cin >> data.nip;
     std::cout << "Umur: ";
-    std::cin >> umur_user;
+    std::cin >> data.umur;
     std::cout << "Jabatan: ";
-    std::cin >> jabatan_user;
-    data.nama = nama_user;
-    data.nip = nip_user;
-    data.umur = umur_user;
-    data.jabatan = jabatan_user;
+    std::cin >> data.jabatan;
+
     P = New_Elemen(data);
     Insert_First(J, P);
 
-    std::cout << "\nNama: ";
-    std::cin >> nama_user;
+    std::cout << "Nama: ";
+    std::cin >> data.nama;
     std::cout << "NIP: ";
-    std::cin >> nip_user;
+    std::cin >> data.nip;
     std::cout << "Umur: ";
-    std::cin >> umur_user;
+    std::cin >> data.umur;
     std::cout << "Jabatan: ";
-    std::cin >> jabatan_user;
-    data.nama = nama_user;
-    data.nip = nip_user;
-    data.umur = umur_user;
-    data.jabatan = jabatan_user;
+    std::cin >> data.jabatan;
+
     P = New_Elemen(data);
     Insert_Last(J,P);
 
-    std::cout << "\nNama: ";
-    std::cin >> nama_user;
+    std::cout << "Nama: ";
+    std::cin >> data.nama;
     std::cout << "NIP: ";
-    std::cin >> nip_user;
+    std::cin >> data.nip;
     std::cout << "Umur: ";
-    std::cin >> umur_user;
+    std::cin >> data.umur;
     std::cout << "Jabatan: ";
-    std::cin >> jabatan_user;
-    data.nama = nama_user;
-    data.nip = nip_user;
-    data.umur = umur_user;
-    data.jabatan = jabatan_user;
+    std::cin >> data.jabatan;
+
     P = New_Elemen(data);
     Insert_First(J, P);
 
-    std::cout << "\nNama: ";
-    std::cin >> nama_user;
+    std::cout << "Nama: ";
+    std::cin >> data.nama;
     std::cout << "NIP: ";
-    std::cin >> nip_user;
+    std::cin >> data.nip;
     std::cout << "Umur: ";
-    std::cin >> umur_user;
+    std::cin >> data.umur;
     std::cout << "Jabatan: ";
-    std::cin >> jabatan_user;
-    data.nama = nama_user;
-    data.nip = nip_user;
-    data.umur = umur_user;
-    data.jabatan = jabatan_user;
+    std::cin >> data.jabatan;
+
     P = New_Elemen(data);
     Insert_Last(J, P);
 
